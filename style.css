@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    font-family: 'Source Serif 4', serif;
+    font-size: 62.5%;
+
+    --color-base-primary: rgb(12, 12, 12);
+    --color-base-secondary: rgb(244, 244, 244);
+}
+
+body {
+    background-color: var(--color-base-secondary);
+    color: var(--color-base-primary);
+    height: 100vh;
+}
+
+main {
+    padding: 2.4rem 3rem;
+    height: 80vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+
+    gap: 4rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .06rem solid var(--color-base-primary);
+    height: 8vh;
+
+    padding: 1.2rem 2rem;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    border-top: .06rem solid var(--color-base-primary);
+    padding: 1.2rem 3rem;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 1.6rem;
+}
+
+blockquote {
+    margin-bottom: 1.6rem;
+}
+
+h1 {
+    color: rgb(62, 149, 18);
+}
+
+h2 {
+    font-weight: 500;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    color: var(--color-base-primary);
+    font-size: 1rem;
+    padding: .2rem 1rem;
+    
+    width: 12rem;
+    height: 100%;
+
+    border: 0.12rem solid var(--color-base-primary);
+    border-radius: 0.6rem;
+}
+
+a:hover {
+    cursor: pointer;
+    opacity: 90%;
+    background-color: rgb(222, 222, 222);
+}
+
+img {
+    max-width: 20%;
+    max-height: 80%;
+}
+
+hr {
+    display: none;
+}
+
+.low-opacity {
+    opacity: 40%;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.line-through {
+    text-decoration:line-through
+}
+
+.text-mark {
+    background-color: var(--color-base-primary);
+    color: var(--color-base-secondary);
+}
+
+.text-block {
+    max-width: 50%;
+}
+
+@media screen and (max-width: 40rem) {
+    main {
+        flex-direction: column;
+    }
+
+    hr {
+        display: flex;
+    }
+    .text-block {
+        max-width: 100%;
+    }
+
+    .bottom-fix {
+        display: none;
+    }
+  }
