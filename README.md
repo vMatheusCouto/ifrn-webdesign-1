@@ -1,6 +1,7 @@
 
 # Web Design > Teacher Irlan Moreira
 
+Deploy: https://vmatheuscouto.github.io/ifrn-webdesign-1/
 Practical activity, web page using concepts like:
 
 * Headings
@@ -19,7 +20,6 @@ Practical activity, web page using concepts like:
 ## Open Theme
 
 Chosen subject: `Quantic Physics` 
-`
 
 
 ## Technologies
@@ -33,5 +33,5 @@ Chosen subject: `Quantic Physics`
 
 
 
-![Logo](https://ugc.production.linktr.ee/dbcdb634-07dd-40fa-ac41-6ca31085553b_IFRN-LOGO.png)
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logotipo_IFET.svg/386px-Logotipo_IFET.svg.png)
 
