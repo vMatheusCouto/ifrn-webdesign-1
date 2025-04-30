@@ -55,7 +55,7 @@ footer {
 }
 
 
-p {
+p, li {
     text-align: justify;
     font-size: 1.6rem;
 }
@@ -104,6 +104,28 @@ hr {
     display: none;
 }
 
+ol, ul {
+    padding: 1rem 2rem;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+li {
+    text-align: left;
+}
+
+li span {
+    opacity: 60%;
+}
+
+.list h1 {
+    margin-top: 1.6rem;
+}
+
 .low-opacity {
     opacity: 40%;
 }
@@ -112,14 +134,6 @@ hr {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.line-through {
-    text-decoration:line-through
 }
 
 .text-mark {
